@@ -1,4 +1,12 @@
-jddbfbdvdbjfjv
-fjsdsbfjdfbfjnd
-dfdsbfbdjdf
-dfdsjn
+COnstructor: It is a method of a class it will be called while creating object of the class, by default there is default constructor.
+             We can overload constructor as many as we want.
+             
+             
+Specialization: This we acheived using inheritance.
+Generalization: this we aceived using interface.
+
+Inheritance: It is acquiring the features of a existing class.
+             We can't convert parent object to child class reference varaible.
+             we can convert child object to parent class reference variable. But we are able to access only parent class methods and variables.
+             
+    
