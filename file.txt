@@ -16,9 +16,9 @@ Based on the reference variable the object will be defined by the JVM.
 This keyword reference to current class.
 Super keyword is reference to parent class or super class.
 
-PLOYMORPHISM:
+PLOYMORPHISM: In Java polymorphism achieved using methods overriding as well as method overloading(one name with many forms)
            Overriding:
-                      Redefining methods that are already present in super class in the sub class.
+                      Redefining methods that are already present in super class in the sub class is called overriding, While overriding methods the name, arguments and return type must be same.
                       When a super class reference varaible is pointing to object of child class and invoking override method then child class method will be called, this is called dynamic dispatch of method.
                       when the method is not overrided and child class method is called it will throw compile time error.
                       
@@ -26,7 +26,14 @@ PLOYMORPHISM:
  
  We can't override final and static methods. While overriding methods the name, arguments and return type must be same.
  
- You can override methods(child class) with less scope access modifier for the methods more strict access modifier(parent methods)
+ You can override methods(child class) with less scope access modifier for the methods more strict access modifier(parent methods).
+ 
+ Overloading can be acheived in the same class and also  in the subclass, it is used for compile time polymorphism.
+ Overriding can be acheived via inheritance, it is used for run time polymorphism.
+ 
+ Overloading:
+             Redefining methods that are already present in the same class or super class but the parameter signature must be different
+             Signature is the combination of method name and parameter list.
                       
  
              
