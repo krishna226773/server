@@ -9,4 +9,8 @@ Inheritance: It is acquiring the features of a existing class.
              We can't convert parent object to child class reference varaible.
              we can convert child object to parent class reference variable. But we are able to access only parent class methods and variables.
              
+ When you extends child class with parent class, that means child class constructor is invoking parent class constructor using super keyword, if you override parent class constructor then you must define the parent class constructor in the child class constructor at very first line.
+ 
+Based on the reference variable the object will be defined by the JVM.
+             
     
