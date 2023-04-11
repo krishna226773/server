@@ -12,5 +12,8 @@ Inheritance: It is acquiring the features of a existing class.
  When you extends child class with parent class, that means child class constructor is invoking parent class constructor using super keyword, if you override parent class constructor then you must define the parent class constructor in the child class constructor at very first line.
  
 Based on the reference variable the object will be defined by the JVM.
+
+This keyword reference to current class.
+Super keyword is reference to parent class or super class.
              
     
