@@ -23,6 +23,10 @@ PLOYMORPHISM:
                       when the method is not overrided and child class method is called it will throw compile time error.
                       
  A Super class reference can hold object of subclass but it can call those methods which are define in super class. You can't call those method that is there in the subclass.
+ 
+ We can't override final and static methods. While overriding methods the name, arguments and return type must be same.
+ 
+ You can override methods(child class) with less scope access modifier for the methods more strict access modifier(parent methods)
                       
  
              
