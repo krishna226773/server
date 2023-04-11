@@ -15,5 +15,15 @@ Based on the reference variable the object will be defined by the JVM.
 
 This keyword reference to current class.
 Super keyword is reference to parent class or super class.
+
+PLOYMORPHISM:
+           Overriding:
+                      Redefining methods that are already present in super class in the sub class.
+                      When a super class reference varaible is pointing to object of child class and invoking override method then child class method will be called, this is called dynamic dispatch of method.
+                      when the method is not overrided and child class method is called it will throw compile time error.
+                      
+ A Super class reference can hold object of subclass but it can call those methods which are define in super class. You can't call those method that is there in the subclass.
+                      
+ 
              
     
