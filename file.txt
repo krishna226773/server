@@ -56,6 +56,17 @@ Variables in Interface static and final.
 To update exisiting interfaces we can use of default methods, if you use abstract methods in interface already implemented methods of interface will become abstarct will not work, so to overcome this problem we can use default methods in interface if you want override this default you can override that.
 
 private methods can also be implemented in interface but that private method can be used only in default methods.
+
+
+Inner classes:
+              Nested inner class
+              Local inner class
+              Anonymous inner class
+              Static inner class
+              
+Nested Inner class:
+                 Inner class can access the members of outer class
+                 But outer can't access the members of inner class unless you have created object of inner class.
                       
  
              
