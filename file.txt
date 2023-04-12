@@ -48,7 +48,9 @@ PLOYMORPHISM: In Java polymorphism achieved using methods overriding as well as 
                 Abstract classes are useful for defining standards and imposing standards.
                 subclass that is extended from the abstract class should follow the standards.
                 
-If a class is final it can't be extended
+If a class is final it can't be extended.
+We can't make abstract class and abstract methods as final and static.
+A subclass of non-abstract super can be abstract
                       
  
              
