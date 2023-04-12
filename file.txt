@@ -50,7 +50,12 @@ PLOYMORPHISM: In Java polymorphism achieved using methods overriding as well as 
                 
 If a class is final it can't be extended.
 We can't make abstract class and abstract methods as final and static.
-A subclass of non-abstract super can be abstract
+A subclass of non-abstract super can be abstract.
+We can create array of interface.
+Variables in Interface static and final.
+To update exisiting interfaces we can use of default methods, if you use abstract methods in interface already implemented methods of interface will become abstarct will not work, so to overcome this problem we can use default methods in interface if you want override this default you can override that.
+
+private methods can also be implemented in interface but that private method can be used only in default methods.
                       
  
              
