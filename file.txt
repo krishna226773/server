@@ -34,6 +34,21 @@ PLOYMORPHISM: In Java polymorphism achieved using methods overriding as well as 
  Overloading:
              Redefining methods that are already present in the same class or super class but the parameter signature must be different
              Signature is the combination of method name and parameter list.
+             
+ Abstract class:
+                We can't create objects for abstract classes, but we can create reference for abstract class.
+                
+                If a class has a abstract method then that class should be declared as a abstract class.
+                Abstract class can have 0 or more abstract methods.
+                
+                If subclass is extends the abstract class then that subclass will also become abstract class untill when you define abstract methods that are define in abstract class.
+                
+                Abstract classed meant only for inheritance.
+                
+                Abstract classes are useful for defining standards and imposing standards.
+                subclass that is extended from the abstract class should follow the standards.
+                
+If a class is final it can't be extended
                       
  
              
