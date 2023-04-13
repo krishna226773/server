@@ -111,6 +111,20 @@ Exception handling:
                   runtime time errors is handled by try and catch block
                   
                   Finally block will be executed, it won't depends on rumtime errors. it is useful for cleanup process.
+                  
+Checked Exception:
+                  We must handle exception by using try and catch block
+                  ClassNotFoundException
+                  IOException
+                  InterruptedException
+                  NumberFormatException
+                  
+ UnChecked Exception:
+                     JVM will not force to handle exception.
+                     RunTimeException
+                         Arithmetic Exception
+                         IndexOutOfBoundException
+                         NullPointerException.
                       
  
              
