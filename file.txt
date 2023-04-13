@@ -85,7 +85,21 @@ Static variables:
                 
                 If you want intialize something for static members we can use static blocks.
         static block 
-                Initilizing static variables of the class, write a set of code that you want execute during the class loading in memory
+                Initilizing static variables of the class, write a set of code that you want execute during the class loading in memory.
+                We can't override static methods.
+                We can overload static methods.
+                
+Final Variables:
+              Capital words for final variable
+              int MIN = 10;
+              There are three ways to initialize final variables in java
+              Initialize while creating variable.
+              initialize in static block
+              Initialize in constructor at every we should initialize.
+              Final variable can't be modified once initialized.
+              
+              Final method can't be overrided.
+              Final classes can't be extended.
                       
  
              
