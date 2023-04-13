@@ -67,6 +67,10 @@ Inner classes:
 Nested Inner class:
                  Inner class can access the members of outer class
                  But outer can't access the members of inner class unless you have created object of inner class.
+                
+Anonymous class:
+                This class can be defined at the time of creation of object itself.
+                Usually these are useful for abtract classes and interfaces.
                       
  
              
