@@ -126,6 +126,16 @@ Checked Exception:
                          IndexOutOfBoundException
                          NullPointerException.
                       
+ To throw our own exception we use throw and throws keywords.
+ 
+ throws keyword is used for throwing
+ throw is used for defining exception.
+ 
+ Checked exception must catch by using try and catch block
+ throws exception must write for checked Exception only
+ 
+ If the method is not handling or throwing an exception to close that resource we use finally block.
+ If we aren't sure handling all exceptions then we write finally block.
  
              
     
