@@ -71,6 +71,21 @@ Nested Inner class:
 Anonymous class:
                 This class can be defined at the time of creation of object itself.
                 Usually these are useful for abtract classes and interfaces.
+                
+Static variables:
+                Static varibles are useful for representing information and data related to class.
+                if you have small value that related to class go for static variables.
+                If you want to do some process go for static methods.
+                If you want data to group that related to class go for static nested class.
+                
+                Static members are shared by all the objects of the class.
+                
+                Static variables and static methods are available in the methods area once the class is loaded.
+                
+                
+                If you want intialize something for static members we can use static blocks.
+        static block 
+                Initilizing static variables of the class, write a set of code that you want execute during the class loading in memory
                       
  
              
