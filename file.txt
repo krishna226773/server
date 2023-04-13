@@ -100,6 +100,17 @@ Final Variables:
               
               Final method can't be overrided.
               Final classes can't be extended.
+              
+Runtime errors:
+               cause of these errors are bad input and Resources are not sufficient.
+               Programmer say my program will work except in the cases the user gives some wrong values. To handle these errors we conventioned it as exception handling.
+            
+Exception handling:
+                  Handling runtime errors while using the program by user is called exception handling (In except cases)
+                  
+                  runtime time errors is handled by try and catch block
+                  
+                  Finally block will be executed, it won't depends on rumtime errors. it is useful for cleanup process.
                       
  
              
