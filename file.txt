@@ -137,5 +137,16 @@ Checked Exception:
  If the method is not handling or throwing an exception to close that resource we use finally block.
  If we aren't sure handling all exceptions then we write finally block.
  
+ Program and its stack one entity, it is actual program, this is called context of a program.
+ 
+ Whenever program need s resource acquire it, if you don't need the resource release.
+ 
+ We want to make clean up always done with the help of finally block.
+ 
+ At some point exception rises if we handling the exception the remaining part of the program still in use to say to JVM that method is not in use we must clean the method by using finally block. By doing f.close();
+ 
+ To avoid using of finally block we can use try with resource concept
+ like try(FileReader file = new FileReader("my.txt"))
+ 
              
     
