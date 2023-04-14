@@ -167,7 +167,13 @@ Wait state in Thread:
                      It has to wait for any resource that program want once the resource is free it will notify by another thread and will go to the request I/O state to get resource. If resource is blocked then it will go to wait state.
                      
 Sleep state in thread: 
-                      we can slow down the speeed of the program by using sleep state in thread by mentioning the time
+                      we can slow down the speeed of the program by using sleep state in thread by mentioning the time.
+                      
+JVM has scheduler that will threads in priority order 
+priority numbers are 1 to 10 
+5 is the default priority.
+With the highest priority number JVM executes that thread at first than the other threads.
+
 
 
 
