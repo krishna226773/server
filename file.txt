@@ -188,7 +188,13 @@ THREAD CLASS:
                                         Thread(Runnable r, String name)
                                         
    Daemon thread in Java is a low-priority thread that runs in the background to perform tasks such as garbage collection.
-   If JVM finds a running daemon thread, it terminates the thread and after shutdown it. JVM does not care whether the Daemon thread is running or not
+   If JVM finds a running daemon thread, it terminates the thread and after shutdown it. JVM does not care whether the Daemon thread is running or not.
+   setDaemon(true);
+   JOin Thread:
+               It is used when we want to wait start to completion of run thread in object class.
+          
+Yield method:
+              This method of thread class causes the currently executing thread object to temporarily pause and allow other threads to execute.
                                        
 
 
