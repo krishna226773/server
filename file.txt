@@ -161,7 +161,13 @@ If we are extending some other class and want use threading then implements runn
 
 AFter extending Thread class we must override run method to acheive a thread.
 run is the starting point of the thread.
-to start the thread we should call start method
+to start the thread we should call start method.
+
+Wait state in Thread:
+                     It has to wait for any resource that program want once the resource is free it will notify by another thread and will go to the request I/O state to get resource. If resource is blocked then it will go to wait state.
+                     
+Sleep state in thread: 
+                      we can slow down the speeed of the program by using sleep state in thread by mentioning the time
 
 
 
