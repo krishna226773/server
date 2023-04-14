@@ -148,5 +148,7 @@ Checked Exception:
  To avoid using of finally block we can use try with resource concept
  like try(FileReader file = new FileReader("my.txt"))
  
+ Object -> Throwable -> Exception(1) -> Error(2)
+ 
              
     
