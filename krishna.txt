@@ -1,1 +1,15 @@
-djdsjj
+                                                                      SYNCHRONIZATION
+Resource Sharing:
+                Many thread can access one object at a time then it is called resource sharing in synchro.....
+                Object will be called shared resource.
+Critical Section:
+                 It is piece of code in 2 or more threads that are accessing the shared object.
+                 
+Mutual Exclusion:
+                 Preventing one thread to access the same object by another thread is called mutual exclusion.
+                 
+SEMAPHORE:
+          Operating system should take care about accessing the object. This is supported by UNIX OS.
+          It is using another block queue and wait method and signal method and one variable at object
+          OS is providing 2 methods wait and signal methods.
+ 
