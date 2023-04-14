@@ -150,5 +150,22 @@ Checked Exception:
  
  Object -> Throwable -> Exception(1) -> Error(2)
  
+ MutliProgramming:
+                  Run mutliple programs on a single computer is called multiprogramming
+
+Multi-user: multiple users using single machine.
+Multi Tasking or Mutli Threading: single user running mutliple programs on a machine.
+
+Thread class and Runnable interface are the two things avaliable to acheive mutli threading.
+If we are extending some other class and want use threading then implements runnable interface. if not extending some other class then extend Thread class.
+
+AFter extending Thread class we must override run method to acheive a thread.
+run is the starting point of the thread.
+to start the thread we should call start method
+
+
+
+
+ 
              
     
