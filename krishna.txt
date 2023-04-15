@@ -12,4 +12,7 @@ SEMAPHORE:
           Operating system should take care about accessing the object. This is supported by UNIX OS.
           It is using another block queue and wait method and signal method and one variable at object
           OS is providing 2 methods wait and signal methods.
+          
+  To acheive inter thread communication we should write our own mechanism to work.
+  This interthread communication is used when one critical resource work is done and second critical resource is depended on first critical resource at this time we should implement interthread communication. by using one variable flag and wait() method and notify() method.
  
