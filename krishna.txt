@@ -15,4 +15,7 @@ SEMAPHORE:
           
   To acheive inter thread communication we should write our own mechanism to work.
   This interthread communication is used when one critical resource work is done and second critical resource is depended on first critical resource at this time we should implement interthread communication. by using one variable flag and wait() method and notify() method.
+  
+  
+  Synchronized keyword is used before method of the object, it is used when 2 or more objects accessing same method of the resource object then at that synchronized will help like first object should complete all its work and will notify to the resource object to allow second object to access resource object.
  
